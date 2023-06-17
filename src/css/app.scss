@@ -1,0 +1,48 @@
+// app global css in SCSS form
+@font-face {
+  font-family: Nunito;
+  src: url(./fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(./fonts/Raleway-Regular.ttf);
+}
+
+// declare a class which applies it
+.my-font {
+  font-family: 'Nunito';
+}
+
+.border-soft {
+  border-radius: 4px;
+}
+
+.tiny-caption {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.softshadow-1 {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 5px 1px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.active-tab {
+  border-radius: 10px 10px 0 0;
+  /* border-top: 1px solid lightgray; */
+}
+
+.soft-shadow {
+  box-shadow: #c9d1d9 0 0 5px 1px;
+}
+
+.basic-box {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
